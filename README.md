@@ -14,16 +14,19 @@ Configurable capture filters and duration
 Automatic flow correlation using multiple identification methods
 
 📋 System Compatibility
-PlatformStatusNotesShow Image✅ Fully SupportedPrimary focusShow Image✅ Fully SupportedAll major distrosShow Image✅ Fully SupportedBoth architectures
+Windows, Linux and MacOS 
+
 ⚙️ Requirements
 Windows Requirements
 
 ⚠️ Important: Run as Administrator for network interface access
 
 Essential Software:
-SoftwareVersionDownload LinkNotesPython3.8+python.orgAdd to PATH during installationWiresharkLatestwireshark.org⚠️ Enable "TShark" command-line toolsNpcapLatestIncluded with Wireshark⚠️ Enable "WinPcap API-compatible mode"
+SoftwareVersionDownload Python3.8+python.org - Add to PATH during installation
+WiresharkLatestwireshark.org Enable "TShark" command-line tools Npca pLatest Included with Wireshark, Enable "WinPcap API-compatible mode"
+
 Python Dependencies:
-bashpip install ntplib
+pip install ntplib
 Linux Requirements
 <details>
 <summary><b>Ubuntu/Debian Setup</b></summary>
